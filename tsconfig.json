@@ -16,6 +16,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@myorg/*": ["libs/*"],
       "@myorg/data": ["libs/data/src/index.ts"],
       "@myorg/ui": ["libs/ui/src/index.ts"]
     }
