@@ -4,9 +4,12 @@ import { Todo } from '@myorg/data';
 export const Todos = (props: { todos: Todo[] }) => {
   return (
     <ul>
-      {props.todos.map(t => (
+      {/* {props.todos.map(t => (
         <li className={'todo'}>{t.title}</li>
-      ))}
+      ))} */}
+      {
+        props.todos.map(t => <li className={'todo'}>{t.title} !!</li>)
+      }
     </ul>
   );
 };

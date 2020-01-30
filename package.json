@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "nx": "nx",
-    "start": "nx serve",
+    "start": "nx serve api && nx serve todos",
     "build": "nx build",
     "test": "nx test",
     "lint": "nx workspace-lint && nx lint",
